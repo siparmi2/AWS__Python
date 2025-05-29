@@ -1,0 +1,13 @@
+# Ignore all `.log` files
+*.log
+
+# Ignore the `env/` directory
+env/
+.idea/*
+
+# Ignore a specific file
+secrets.txt
+
+# Ignore everything in a folder but not the folder itself
+data/*
+!data/.gitkeep
